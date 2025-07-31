@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #2b2727;
+    color: #ffffff;
+    font-family: Arial, 'Times New Roman', sans-serif;
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 10px;
+}
+
+.home {
+    color: revert;
+    font-size: 25px;
+    background-color: rgb(251, 255, 5);
+    position: fixed;
+    margin: 15px 0px 0px 0px;
+}
+
+h1 {
+    color: lightskyblue;
+    text-align: center;
+}
+
+hr {
+    margin: 0 100px;
+}
+
+img {
+    display: block;
+    margin: 10px auto 0px;
+}
+
+h5 {
+    font-size: 8px;
+}
+
+.attribution {
+    text-align: center;
+}
+
+span {
+    color: blue;
+    background-color: rgb(251, 255, 5);
+}
+
+h2 {
+    color: lightskyblue;
+    text-align: center;
+    margin: 25px auto;
+    border: 1px solid ;
+    width: 410px;
+}
+
+.description {
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid ;
+}
+
+.ingredients-list{
+    width: 350px;
+    margin: 10px auto;
+}
+
+.steps-list {
+    width: 500px;
+    margin: 10px auto;
+    padding: 0 0 15px;
+}
+
+li {
+    margin: 10px;
+}
